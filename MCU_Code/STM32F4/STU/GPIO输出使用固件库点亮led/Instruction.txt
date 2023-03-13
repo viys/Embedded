@@ -1,0 +1,6 @@
+Libraries	存放固件库主要的源码
+Listing   	存放mdk或者keil
+Output	编译时产生的中间文件
+Project	下载的文件
+User	用户写的程序
+keilkill	清楚脚本文件

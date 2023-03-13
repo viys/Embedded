@@ -1,0 +1,8 @@
+--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\USER
+-I.\RTE\Device\STM32F103RC
+-I.\RTE\_RDE
+-ID:\KEIL\Pack\ARM\CMSIS\5.8.0\CMSIS\Core\Include
+-ID:\KEIL\Pack\Keil\STM32F1xx_DFP\2.4.0\Device\Include
+-ID:\KEIL\Pack\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\inc
+-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER
+-o .\objects\stm32f10x_spi.o --omf_browse .\objects\stm32f10x_spi.crf --depend .\objects\stm32f10x_spi.d --feedback ".\Objects\Remote_Debug.fed" "D:\KEIL\Pack\Keil\STM32F1xx_DFP\2.4.0\Device\StdPeriph_Driver\src\stm32f10x_spi.c"

@@ -1,0 +1,21 @@
+固件函数说明
+	片上外设
+		startup_stm32f40xx.s	 汇编编写的启动文件
+		stm32f4xx.h				 外设寄存器映射
+		system_stm32f4xx.h   
+		system_stm32f4xx.c  	 初始化时钟
+		stm32f4xx_xxxx.h
+		stm32f4xx_xxxx.c      	 外设对应的驱动库
+
+	内核外设
+		core_cm4.h				 内核寄存器映射
+		core_cmFunc.h			 
+		core_cmInstr.h			 
+		core_cmSimd.h		   	 实现对内核外设的操作函数
+		misc.h                                 
+		misc.c					 实现中断相关的函数
+
+	用户相关
+		stm32f4xx_it.h	
+		stm32f4xx_it.c			 用来存放中断服务函数	
+		main.c					 用来存放main文件

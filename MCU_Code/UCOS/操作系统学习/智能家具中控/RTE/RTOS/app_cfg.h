@@ -1,0 +1,18 @@
+#ifndef __APP_CFG_H
+#define __APPCFG_H
+
+//TASK PRIORITIES
+#define APP_TASK_START_PRIO			2
+
+#define APP_TASK_LCD_PRIO			4
+#define APP_TASK_NRF_PRIO			3
+#define APP_TASK_WKUP_PRIO			5
+
+//TASK STACK SIZES
+#define APP_TASK_START_STK_SIZE		128
+
+#define APP_TASK_LCD_STK_SIZE		512
+#define APP_TASK_NRF_STK_SIZE		512
+#define APP_TASK_WKUP_STK_SIZE		512
+
+#endif

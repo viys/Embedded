@@ -1,0 +1,4 @@
+1.接线:
+      通过杜邦线与USB转TTL相连，板子PB6,PB7,GND分别于USB转TTL的RXD,TXD,GND相连
+2.实验:
+      通过Xshell6的 Ymodem协议进行IAP程序烧录

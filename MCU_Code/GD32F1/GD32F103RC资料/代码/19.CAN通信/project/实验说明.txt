@@ -1,0 +1,10 @@
+1.接线:
+     板子先与CAN转TTL板子用杜邦线对接
+	 PA12 TX-Can转TTL TX
+	 PA11 RX-Can转TTL RX
+	 GND    -Can转TTL GND
+	 5V     -Can转TTL VCC
+	 Can转TTL与USB转CAN用杜邦线对接，USB转CAN插电脑
+	 
+2.实验:
+下载程序，全速运行，打开电脑CAN Tool，250k波特率，标准帧，ID:0x321,CAN Tool发送数据，板子就会回同样的数据
